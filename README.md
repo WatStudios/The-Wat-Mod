@@ -15,8 +15,6 @@ Then biomes there is Cat Biome, Reck Biome, Calico Biome (some still need to be 
 
 So you may see 001, 002, 003... 017 but I will show you how to use them.
 
-But then and click open workspace then navigate the the folder it was made in called cateningpart4 double click wat.mcreator and it's done!
-
 ![Image](https://github.com/users/WatStudios/projects/1/assets/159730338/c014cde8-99d5-4bbb-85c8-7c24040991b9)
 
 First Get 7zip then select all the .001 to .017 files
