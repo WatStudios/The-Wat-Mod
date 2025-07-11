@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "wat_mod_reborn:white_kitty_cat"
+    },
+    "title": {
+      "translate": "advancements.useless_ore_found.title"
+    },
+    "description": {
+      "translate": "advancements.useless_ore_found.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "useless_ore_found_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wat_mod_reborn:white_kitty_cat"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wat_mod_reborn:white_kitty_tools_pickaxe_recipe",
+      "wat_mod_reborn:white_kitty_tools_axe_recipe",
+      "wat_mod_reborn:white_kitty_tools_sword_recipe",
+      "wat_mod_reborn:white_kitty_tools_shovel_recipe",
+      "wat_mod_reborn:white_kitty_tools_hoe_recipe"
+    ]
+  },
+  "parent": "wat_mod_reborn:welcome"
+}

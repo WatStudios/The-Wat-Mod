@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "wat_mod_reborn:warning"
+    },
+    "title": {
+      "translate": "advancements.alpha_warn.title"
+    },
+    "description": {
+      "translate": "advancements.alpha_warn.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alpha_warn_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

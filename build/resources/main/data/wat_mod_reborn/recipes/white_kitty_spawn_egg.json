@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wat_mod_reborn:cat_essence"
+    },
+    {
+      "item": "wat_mod_reborn:white_kitty_cat"
+    }
+  ],
+  "result": {
+    "item": "wat_mod_reborn:white_kitty_spawn_egg",
+    "count": 1
+  }
+}

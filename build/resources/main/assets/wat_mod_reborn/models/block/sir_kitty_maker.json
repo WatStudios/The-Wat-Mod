@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wat_mod_reborn:block/yarntop",
+    "up": "wat_mod_reborn:block/yarntop",
+    "north": "wat_mod_reborn:block/yarnside",
+    "east": "wat_mod_reborn:block/yarntop",
+    "south": "wat_mod_reborn:block/yarnside",
+    "west": "wat_mod_reborn:block/yarntop",
+    "particle": "wat_mod_reborn:block/yarntop"
+  },
+  "render_type": "solid"
+}

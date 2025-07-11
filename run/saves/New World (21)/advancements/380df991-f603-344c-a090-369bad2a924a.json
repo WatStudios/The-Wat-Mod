@@ -1,0 +1,31 @@
+{
+  "wat_mod_reborn:welcome": {
+    "criteria": {
+      "welcome_0": "2024-10-19 17:34:07 -0500"
+    },
+    "done": true
+  },
+  "wat_mod_reborn:alpha_warn": {
+    "criteria": {
+      "alpha_warn_0": "2024-10-19 17:34:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-19 17:34:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-10-19 17:43:31 -0500",
+      "minecraft:stony_shore": "2024-10-19 17:34:34 -0500",
+      "minecraft:forest": "2024-10-19 17:34:33 -0500",
+      "minecraft:ocean": "2024-10-19 19:16:21 -0500",
+      "minecraft:plains": "2024-10-19 17:34:09 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

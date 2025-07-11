@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wat_mod_reborn:block/stormy_ore",
+    "up": "wat_mod_reborn:block/stormy_ore",
+    "north": "wat_mod_reborn:block/stormy_ore",
+    "east": "wat_mod_reborn:block/stormy_ore",
+    "south": "wat_mod_reborn:block/stormy_ore",
+    "west": "wat_mod_reborn:block/stormy_ore",
+    "particle": "wat_mod_reborn:block/stormy_ore"
+  },
+  "render_type": "solid"
+}

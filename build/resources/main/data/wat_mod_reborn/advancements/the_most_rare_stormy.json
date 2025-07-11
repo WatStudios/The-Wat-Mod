@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "wat_mod_reborn:deepslate_stormy_ore"
+    },
+    "title": {
+      "translate": "advancements.the_most_rare_stormy.title"
+    },
+    "description": {
+      "translate": "advancements.the_most_rare_stormy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_most_rare_stormy_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wat_mod_reborn:deepslate_stormy_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 6
+  },
+  "parent": "wat_mod_reborn:better_than_iron"
+}

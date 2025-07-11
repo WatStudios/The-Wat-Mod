@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wat_mod_reborn:luna_item"
+    },
+    {
+      "item": "wat_mod_reborn:cat_essence"
+    }
+  ],
+  "result": {
+    "item": "wat_mod_reborn:luna_spawn_egg",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 77,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Catter"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.LOG#0"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Red.spawn_egg"
+            },
+            "countOffer": 4,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

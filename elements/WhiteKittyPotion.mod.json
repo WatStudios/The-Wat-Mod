@@ -1,0 +1,32 @@
+{
+  "_fv": 77,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of White Kitty",
+    "splashName": "Splash Potion of White Kitty",
+    "lingeringName": "Lingering Potion of White Kitty",
+    "arrowName": "Arrow of White Kitty",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:WhiteKittyEffect"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 4,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

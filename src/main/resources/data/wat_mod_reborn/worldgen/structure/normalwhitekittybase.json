@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "wat_mod_reborn:normalwhitekittybase",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "underground_structures",
+  "terrain_adaptation": "bury",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": [
+    "lush_caves",
+    "deep_dark",
+    "dripstone_caves"
+  ],
+  "use_expansion_hack": false
+}

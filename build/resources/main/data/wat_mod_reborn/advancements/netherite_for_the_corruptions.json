@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "wat_mod_reborn:deepslate_luna_ore"
+    },
+    "title": {
+      "translate": "advancements.netherite_for_the_corruptions.title"
+    },
+    "description": {
+      "translate": "advancements.netherite_for_the_corruptions.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherite_for_the_corruptions_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wat_mod_reborn:deepslate_luna_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 8
+  },
+  "parent": "wat_mod_reborn:the_netherite_of_cats"
+}

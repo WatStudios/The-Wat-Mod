@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "wat_mod_reborn:attack_wuneya_meows",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "wat_mod_reborn:stormy_cat"
+    },
+    "b": {
+      "item": "wat_mod_reborn:cat_essence"
+    }
+  },
+  "result": {
+    "item": "wat_mod_reborn:stormy_spawn_egg",
+    "count": 1
+  }
+}

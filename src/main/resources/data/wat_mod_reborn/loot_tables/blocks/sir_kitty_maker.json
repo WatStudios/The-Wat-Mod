@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "wat_mod_reborn:blocks/sir_kitty_maker",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wat_mod_reborn:sir_kitty_maker"
+        }
+      ]
+    }
+  ]
+}

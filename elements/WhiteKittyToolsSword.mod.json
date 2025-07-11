@@ -1,0 +1,42 @@
+{
+  "_fv": 77,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "whitekittytools_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": " White Kitty Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      },
+      {
+        "value": "CUSTOM:WatReborn"
+      }
+    ],
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 1.0,
+    "usageCount": 26,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:WhiteKittyCat"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

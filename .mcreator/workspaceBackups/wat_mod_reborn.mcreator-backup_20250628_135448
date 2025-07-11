@@ -1,0 +1,2828 @@
+{
+  "mod_elements": [
+    {
+      "name": "WatReborn",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wat_reborn",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Stormy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/stormy_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/StormyEntity.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/StormyRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Luna",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/luna_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/LunaEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/LunaRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SirMeows",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/SirMeowsRenderer.java",
+          "src/main/java/net/mcreator/watmodreborn/entity/SirMeowsEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/sir_meows_biome_modifier.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "WuneyaKittyMeows",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wuneya_kitty_meows",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/entity/WuneyaKittyMeowsEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/WuneyaKittyMeowsRenderer.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/wuneya_kitty_meows_biome_modifier.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/wuneya_kitty_meows_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Red",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/red_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/RedEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/RedRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/red_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CatGod",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/cat_god_spawn_egg.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/cat_god_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/CatGodEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CatGodRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "WhiteKitty",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/WhiteKittyRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_spawn_egg.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/white_kitty_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/WhiteKittyEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptedSirMeows",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_sir_meows",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_sir_meows_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptedSirMeowsRenderer.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/corrupted_sir_meows_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptedSirMeowsEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SirMeowsEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/SirMeowsEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CorruptedLuna",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_luna",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/corrupted_luna_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptedLunaEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptedLunaRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_luna_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "LunaEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/LunaEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SirKittyMaker",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_kitty_maker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/block/SirKittyMakerBlock.java",
+          "src/main/resources/assets/wat_mod_reborn/models/block/sir_kitty_maker.json",
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/sir_kitty_maker.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/sir_kitty_maker.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_kitty_maker.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "CorruptedStormy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_stormy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptedStormyEntity.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_stormy_spawn_egg.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/corrupted_stormy_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptedStormyRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "StormyEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/StormyEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Normalwhitekittybase",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normalwhitekittybase",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/worldgen/structure_set/normalwhitekittybase.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/template_pool/normalwhitekittybase.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/structure/normalwhitekittybase.json"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "CorruptedWhiteKitty",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_white_kitty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/corrupted_white_kitty_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptedWhiteKittyRenderer.java",
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptedWhiteKittyEntity.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_white_kitty_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "StormyGUIModelShow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_gui_model_show",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/StormyGUIModelShowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "StormyGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/world/inventory/StormyGUIMenu.java",
+          "src/main/java/net/mcreator/watmodreborn/client/gui/StormyGUIScreen.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WhiteKittyEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/WhiteKittyEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WhiteKittyEffectEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_effect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/WhiteKittyEffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WhiteKittyEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/potion/WhiteKittyEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WhiteKittyEffectActiveTickCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_effect_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/WhiteKittyEffectActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "WhiteKittyPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_potion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Catter",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "catter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/textures/entity/villager/profession/catter.png.mcmeta"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Cattertrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cattertrade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "Cattertrade2",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cattertrade_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "SirKitty",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_kitty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/entity/SirKittyEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/SirKittyRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_kitty_spawn_egg.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/sir_kitty_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SirKittySpawnerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_kitty_spawner_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/SirKittySpawnerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CorruptedWuneyaMeows",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_wuneya_meows",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_wuneya_meows_spawn_egg.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/corrupted_wuneya_meows_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptedWuneyaMeowsRenderer.java",
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptedWuneyaMeowsEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "WuneyaKittyMeowsEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wuneya_kitty_meows_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/WuneyaKittyMeowsEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AlphaWarn",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha_warn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/alpha_warn.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Warning",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/warning.json",
+          "src/main/java/net/mcreator/watmodreborn/item/WarningItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_ore.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/stormy_ore_biome_modifier.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/stormy_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/block/stormy_ore.json",
+          "src/main/java/net/mcreator/watmodreborn/block/StormyOreBlock.java",
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/stormy_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/stormy_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "StormyCat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_cat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_cat.json",
+          "src/main/java/net/mcreator/watmodreborn/item/StormyCatItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/stormy_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "StormyToolPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_tool_pickaxe.json",
+          "src/main/java/net/mcreator/watmodreborn/item/StormyToolPickaxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyToolAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/StormyToolAxeItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_tool_axe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyToolSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/StormyToolSwordItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_tool_sword.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyToolShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/StormyToolShovelItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_tool_shovel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyToolHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_tool_hoe.json",
+          "src/main/java/net/mcreator/watmodreborn/item/StormyToolHoeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyToolPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_tool_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyToolAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_tool_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyToolSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_tool_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyToolShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_tool_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyToolHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_tool_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_tool_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "DeepslateStormyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_stormy_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/deepslate_stormy_ore.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/deepslate_stormy_ore.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/deepslate_stormy_ore_biome_modifier.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/deepslate_stormy_ore.json",
+          "src/main/java/net/mcreator/watmodreborn/block/DeepslateStormyOreBlock.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/deepslate_stormy_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/block/deepslate_stormy_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "WhiteKittyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/white_kitty_ore.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/white_kitty_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/white_kitty_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/block/white_kitty_ore.json",
+          "src/main/java/net/mcreator/watmodreborn/block/WhiteKittyOreBlock.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/white_kitty_ore_biome_modifier.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "DeepslateWhiteKittyOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_white_kitty_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/block/DeepslateWhiteKittyOreBlock.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/deepslate_white_kitty_ore_biome_modifier.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/deepslate_white_kitty_ore.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/deepslate_white_kitty_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/deepslate_white_kitty_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/deepslate_white_kitty_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/block/deepslate_white_kitty_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "Alex",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/AlexRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/alex_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/AlexEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/alex_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "WhiteKittyCat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_cat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_cat.json",
+          "src/main/java/net/mcreator/watmodreborn/item/WhiteKittyCatItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DeepslateStormyOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_stormy_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/deepslate_stormy_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "WhiteKittyOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/white_kitty_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "DeepslateWhiteKittyOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_white_kitty_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/deepslate_white_kitty_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "WhiteKittyToolsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_tools_pickaxe.json",
+          "src/main/java/net/mcreator/watmodreborn/item/WhiteKittyToolsPickaxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WhiteKittyToolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_tools_axe.json",
+          "src/main/java/net/mcreator/watmodreborn/item/WhiteKittyToolsAxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WhiteKittyToolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/WhiteKittyToolsSwordItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_tools_sword.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WhiteKittyToolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_tools_shovel.json",
+          "src/main/java/net/mcreator/watmodreborn/item/WhiteKittyToolsShovelItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WhiteKittyToolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_tools_hoe.json",
+          "src/main/java/net/mcreator/watmodreborn/item/WhiteKittyToolsHoeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WhiteKittyToolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_tools_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittyToolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_tools_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittyToolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_tools_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittyToolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_tools_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittyToolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_tools_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Welcome",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/welcome.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "UselessOreFound",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "useless_ore_found",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/useless_ore_found.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BetterThanIron",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_than_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/better_than_iron.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "RareStormy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_stormy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/rare_stormy.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EvenMoreUslessOreFound",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "even_more_usless_ore_found",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/even_more_usless_ore_found.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TheMostRareStormy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_most_rare_stormy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/the_most_rare_stormy.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "VeryUselessOreFound",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_useless_ore_found",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/very_useless_ore_found.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LunaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/luna_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/luna_ore.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/luna_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/block/LunaOreBlock.java",
+          "src/main/resources/assets/wat_mod_reborn/models/block/luna_ore.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/luna_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "DeepslateLunaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_luna_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/deepslate_luna_ore.json",
+          "src/main/java/net/mcreator/watmodreborn/block/DeepslateLunaOreBlock.java",
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/deepslate_luna_ore.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/deepslate_luna_ore_biome_modifier.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/deepslate_luna_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/block/deepslate_luna_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/deepslate_luna_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "Orange",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/OrangeRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/orange_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/OrangeEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/orange_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "LunaItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/LunaItemItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_item.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LunaOreloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_oreloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/luna_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "DeepslateLunaOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_luna_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/deepslate_luna_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "TheNetheriteOfCats",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_netherite_of_cats",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/the_netherite_of_cats.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LetsBringThisNetherite",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lets_bring_this_netherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/lets_bring_this_netherite.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NetheriteForTheCorruptions",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_for_the_corruptions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/netherite_for_the_corruptions.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LunaToolsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_tools_pickaxe.json",
+          "src/main/java/net/mcreator/watmodreborn/item/LunaToolsPickaxeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LunaToolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/LunaToolsAxeItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_tools_axe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LunaToolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_tools_sword.json",
+          "src/main/java/net/mcreator/watmodreborn/item/LunaToolsSwordItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LunaToolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/LunaToolsShovelItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_tools_shovel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LunaToolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/LunaToolsHoeItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_tools_hoe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LunaToolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_tools_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "LunaToolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_tools_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "LunaToolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_tools_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "LunaToolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_tools_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "LunaToolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_tools_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyArmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_armor_armor_boots.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_armor_armor_chestplate.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_armor_armor_leggings.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/stormy_armor_armor_helmet.json",
+          "src/main/java/net/mcreator/watmodreborn/item/StormyArmorArmorItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "StormyArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyArmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormyProtection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_protection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/stormy_protection.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WhiteKittyArmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_armor_armor_leggings.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_armor_armor_helmet.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_armor_armor_chestplate.json",
+          "src/main/java/net/mcreator/watmodreborn/item/WhiteKittyArmorArmorItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/white_kitty_armor_armor_boots.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "WhiteKittyArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittyArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittyArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittyArmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "UselessArmor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "useless_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/useless_armor.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "LunaArmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/LunaArmorArmorItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_armor_armor_leggings.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_armor_armor_helmet.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_armor_armor_boots.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/luna_armor_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "LunaArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "LunaArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "LunaArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "LunaArmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "SirMeowsOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/sir_meows_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_ore.json",
+          "src/main/java/net/mcreator/watmodreborn/block/SirMeowsOreBlock.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/sir_meows_ore_biome_modifier.json",
+          "src/main/resources/assets/wat_mod_reborn/models/block/sir_meows_ore.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/sir_meows_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/sir_meows_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "DeepslateSirMeowsOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_sir_meows_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/deepslate_sir_meows_ore_biome_modifier.json",
+          "src/main/resources/data/wat_mod_reborn/worldgen/placed_feature/deepslate_sir_meows_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/block/deepslate_sir_meows_ore.json",
+          "src/main/java/net/mcreator/watmodreborn/block/DeepslateSirMeowsOreBlock.java",
+          "src/main/resources/data/wat_mod_reborn/worldgen/configured_feature/deepslate_sir_meows_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/deepslate_sir_meows_ore.json",
+          "src/main/resources/assets/wat_mod_reborn/blockstates/deepslate_sir_meows_ore.json"
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "SirMeowsCat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_cat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/SirMeowsCatItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_cat.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SirMeowsOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/sir_meows_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "DeepslateSirMeowsOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_sir_meows_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/blocks/deepslate_sir_meows_ore.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "VeryMeowey",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_meowey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/very_meowey.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HiddenMeower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hidden_meower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/hidden_meower.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DeepHiddenMeower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_hidden_meower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/advancements/deep_hidden_meower.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SirMeowsToolsPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/SirMeowsToolsPickaxeItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_tools_pickaxe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SirMeowsToolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/SirMeowsToolsAxeItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_tools_axe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SirMeowsToolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/SirMeowsToolsSwordItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_tools_sword.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SirMeowsToolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/SirMeowsToolsShovelItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_tools_shovel.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SirMeowsToolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/sir_meows_tools_hoe.json",
+          "src/main/java/net/mcreator/watmodreborn/item/SirMeowsToolsHoeItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SirMeowsToolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/sir_meows_tools_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "SirMeowsToolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/sir_meows_tools_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "SirMeowsToolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/sir_meows_tools_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "SirMeowsToolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/sir_meows_tools_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "SirMeowsToolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/sir_meows_tools_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "CatEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/cat_essence.json",
+          "src/main/java/net/mcreator/watmodreborn/item/CatEssenceItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AttackWuneyaMeows",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attack_wuneya_meows",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/attack_wuneya_meows_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/AttackWuneyaMeowsEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/AttackWuneyaMeowsRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/attack_wuneya_meows_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "BlankCat",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_cat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/BlankCatRenderer.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/blank_cat_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/BlankCatEntity.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/blank_cat_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SculkCat",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_cat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/sculk_cat_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/SculkCatRenderer.java",
+          "src/main/java/net/mcreator/watmodreborn/entity/SculkCatEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/sculk_cat_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "BlankCatloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_catloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/entities/blank_cat.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "LunaSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luna_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/luna_spawn_egg.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "BlankCatSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_cat_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/blank_cat_spawn_egg.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "SculkCatSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_cat_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/sculk_cat_spawn_egg.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "SirMeowsSpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_meows_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/sir_meows_spawn_egg.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "WhiteKittySpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kitty_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/white_kitty_spawn_egg.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "StormySpawnEgg",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stormy_spawn_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/stormy_spawn_egg.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "FlyingStormy",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_stormy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_stormy_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingStormyEntity.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_stormy_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingStormyRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingStormyGUIModelShow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_stormy_gui_model_show",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/FlyingStormyGUIModelShowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "FlyingStormyGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_stormy_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/client/gui/FlyingStormyGUIScreen.java",
+          "src/main/java/net/mcreator/watmodreborn/world/inventory/FlyingStormyGUIMenu.java"
+        ]
+      },
+      "path": "~/Misc"
+    },
+    {
+      "name": "FlyingEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/FlyingEssenceItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_essence.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CorruptedCatEssence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_cat_essence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/item/CorruptedCatEssenceItem.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_cat_essence.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CorruptedBlankCat",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_blank_cat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/corrupted_blank_cat_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptedBlankCatRenderer.java",
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptedBlankCatEntity.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_blank_cat_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingLuna",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_luna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_luna_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingLunaEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_luna_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingLunaRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingSirMeows",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_sir_meows",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_sir_meows_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingSirMeowsRenderer.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_sir_meows_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingSirMeowsEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingWuneyaKittyMeows",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_wuneya_kitty_meows",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingWuneyaKittyMeowsEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_wuneya_kitty_meows_biome_modifier.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_wuneya_kitty_meows_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingWuneyaKittyMeowsRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingRed",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingRedEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_red_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingRedRenderer.java",
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingRedEntityProjectile.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_red_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingCatGod",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_cat_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_cat_god_biome_modifier.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingCatGodRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_cat_god_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingCatGodEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingWhiteKitty",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_white_kitty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingWhiteKittyEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingWhiteKittyRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_white_kitty_spawn_egg.json",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_white_kitty_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptedAlex",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_alex",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptedAlexEntity.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupted_alex_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptedAlexRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FlyingAlex",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_alex",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/FlyingAlexRenderer.java",
+          "src/main/resources/assets/wat_mod_reborn/models/item/flying_alex_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/FlyingAlexEntity.java",
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/flying_alex_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptSirKitty",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_sir_kitty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/forge/biome_modifier/corrupt_sir_kitty_biome_modifier.json",
+          "src/main/resources/assets/wat_mod_reborn/models/item/corrupt_sir_kitty_spawn_egg.json",
+          "src/main/java/net/mcreator/watmodreborn/entity/CorruptSirKittyEntity.java",
+          "src/main/java/net/mcreator/watmodreborn/client/renderer/CorruptSirKittyRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "SirKittyEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sir_kitty_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/SirKittyEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AlexEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alex_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/AlexEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FlyingAlexDies",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_alex_dies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/entities/flying_alex.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "FLuna",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_luna",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/entities/flying_luna.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "FSirMeows",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_sir_meows",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/entities/flying_sir_meows.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "FCatGod",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_cat_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/entities/flying_cat_god.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "FWuneyaMeows",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_wuneya_meows",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/entities/flying_wuneya_kitty_meows.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "FlyRed",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/loot_tables/entities/flying_red.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "Wing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wat_mod_reborn/recipes/wing.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FStormyLoot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_stormy_loot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/watmodreborn/procedures/FStormyLootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "corruptioncat",
+      "files": [
+        "untitled",
+        "meow2",
+        "meow3",
+        "meow4"
+      ],
+      "category": "hostile",
+      "subtitle": "Corruption Meows"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:DeepslateLunaOre",
+      "~CUSTOM:LunaOre"
+    ],
+    "BLOCKS:minecraft:deepslate_replaceable": [
+      "Blocks.DEEPSLATE",
+      "Blocks.TUFF"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:DeepslateSirMeowsOre",
+      "~CUSTOM:SirMeowsOre",
+      "~CUSTOM:DeepslateLunaOre",
+      "~CUSTOM:LunaOre",
+      "~CUSTOM:DeepslateWhiteKittyOre",
+      "~CUSTOM:WhiteKittyOre",
+      "~CUSTOM:DeepslateStormyOre",
+      "~CUSTOM:StormyOre"
+    ],
+    "ENTITIES:minecraft:raiders": [
+      "~CUSTOM:AttackWuneyaMeows"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:DeepslateSirMeowsOre",
+      "~CUSTOM:SirMeowsOre",
+      "~CUSTOM:DeepslateStormyOre",
+      "~CUSTOM:StormyOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SirMeowsToolsPickaxe",
+      "~CUSTOM:LunaToolsPickaxe",
+      "~CUSTOM:WhiteKittyToolsPickaxe",
+      "~CUSTOM:StormyToolPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SirMeowsToolsAxe",
+      "~CUSTOM:LunaToolsAxe",
+      "~CUSTOM:WhiteKittyToolsAxe",
+      "~CUSTOM:StormyToolAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SirMeowsToolsSword",
+      "~CUSTOM:LunaToolsSword",
+      "~CUSTOM:WhiteKittyToolsSword",
+      "~CUSTOM:StormyToolSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:SirMeowsToolsHoe",
+      "~CUSTOM:LunaToolsHoe",
+      "~CUSTOM:WhiteKittyToolsHoe",
+      "~CUSTOM:StormyToolHoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:SirMeowsToolsShovel",
+      "~CUSTOM:LunaToolsShovel",
+      "~CUSTOM:WhiteKittyToolsShovel",
+      "~CUSTOM:StormyToolShovel"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.wat_mod_reborn.wuneya_kitty_meows_spawn_egg": "Wuneya Kitty Meows Spawn Egg",
+      "entity.wat_mod_reborn.corrupted_white_kitty": "Corrupted White Kitty",
+      "item.minecraft.lingering_potion.effect.white_kitty_potion": "Lingering Potion of White Kitty",
+      "advancements.netherite_for_the_corruptions.descr": "Obtain Deepslate Luna Ore with Silk Touch",
+      "block.wat_mod_reborn.deepslate_sir_meows_ore": "Deepslate Luna Ore",
+      "block.wat_mod_reborn.luna_ore": "Luna Ore",
+      "advancements.lets_bring_this_netherite.descr": "Obtain Luna ore with Silk Touch",
+      "advancements.better_than_iron.title": "Better Than Iron!",
+      "item.wat_mod_reborn.white_kitty_tools_sword": " White Kitty Sword",
+      "item.wat_mod_reborn.corrupt_sir_kitty_spawn_egg": "Corrupted Sir Kitty Spawn Egg",
+      "item.wat_mod_reborn.white_kitty_armor_armor_boots": "White Kitty Boots",
+      "block.wat_mod_reborn.deepslate_luna_ore": "Deepslate Luna Ore",
+      "entity.wat_mod_reborn.attack_wuneya_meows": "Attack Wuneya Kitty Meows",
+      "item.wat_mod_reborn.white_kitty_cat": "White Kitty",
+      "item.wat_mod_reborn.white_kitty_armor_armor_leggings": "White Kitty Leggings",
+      "item.wat_mod_reborn.stormy_cat": "Stormy",
+      "entity.wat_mod_reborn.corrupted_alex": "Corrupted Alex",
+      "item.wat_mod_reborn.flying_luna_spawn_egg": "Flying Luna Spawn Egg",
+      "advancements.stormy_protection.descr": "Obtain Stormy Armor",
+      "entity.minecraft.villager.wat_mod_reborn.catter": "Catter",
+      "item.wat_mod_reborn.flying_stormy_spawn_egg": "Flying Stormy Spawn Egg",
+      "advancements.alpha_warn.title": "WARNING This Is A Beta Version Report Any Bugs Please",
+      "advancements.rare_stormy.title": "Rare Stormy!",
+      "item.wat_mod_reborn.luna_armor_armor_boots": "Luna Boots",
+      "entity.wat_mod_reborn.corrupted_sir_meows": "Corrupted Sir Meows",
+      "block.wat_mod_reborn.deepslate_stormy_ore": "Deepslate Stormy Ore",
+      "item.wat_mod_reborn.stormy_tool_sword": "Stormy Sword",
+      "entity.wat_mod_reborn.wuneya_kitty_meows": "Wuneya Kitty Meows",
+      "item.wat_mod_reborn.sir_kitty_spawn_egg": "Sir Kitty Spawn Egg",
+      "item.wat_mod_reborn.stormy_tool_hoe": "Stormy Hoe",
+      "advancements.very_useless_ore_found.descr": "Aquire Deepslate White Kitty ore with Silk Touch",
+      "entity.wat_mod_reborn.corrupted_luna": "Corrupted Luna",
+      "advancements.the_netherite_of_cats.descr": "Obtain Luna Ore",
+      "item.wat_mod_reborn.sculk_cat_spawn_egg": "Sculk Cat Spawn Egg",
+      "advancements.useless_armor.descr": "Obtain White Kitty armor",
+      "block.wat_mod_reborn.sir_meows_ore": "Luna Ore",
+      "item.wat_mod_reborn.luna_tools_axe": "Luna Axe",
+      "item.wat_mod_reborn.stormy_armor_armor_helmet": "Stormy Helmet",
+      "entity.wat_mod_reborn.corrupt_sir_kitty": "Corrupted Sir Kitty",
+      "advancements.hidden_meower.title": "Hidden Meower",
+      "item.wat_mod_reborn.white_kitty_spawn_egg": "White Kitty Spawn Egg",
+      "item.wat_mod_reborn.orange_spawn_egg": "Orange Spawn Egg",
+      "item.wat_mod_reborn.stormy_armor_armor_leggings": "Stormy Leggings",
+      "advancements.even_more_usless_ore_found.title": "Even More Usless Ore Found!",
+      "advancements.the_most_rare_stormy.descr": "Aquire Deepslate Stormy ore With Silk Touch",
+      "advancements.the_most_rare_stormy.title": "The Most Rare Stormy!",
+      "item.wat_mod_reborn.luna_tools_hoe": "Luna Hoe",
+      "entity.wat_mod_reborn.flying_luna": "Flying Luna",
+      "gui.wat_mod_reborn.stormy_gui.label_stomy": "Stormy",
+      "advancements.stormy_protection.title": "Stormy Protection",
+      "entity.wat_mod_reborn.alex": "Alex",
+      "item.wat_mod_reborn.luna_armor_armor_helmet": "Luna Helmet",
+      "item.wat_mod_reborn.luna_spawn_egg": "Luna Spawn Egg",
+      "advancements.rare_stormy.descr": "Aquire Stormy ore with Silk Touch",
+      "advancements.hidden_meower.descr": "Obtain Sir Meows Ore with Silk Touch",
+      "entity.wat_mod_reborn.sir_meows": "Sir Meows",
+      "item.wat_mod_reborn.warning": "Warning",
+      "entity.wat_mod_reborn.flying_white_kitty": "Flying White Kitty",
+      "item.wat_mod_reborn.red_spawn_egg": "Red Spawn Egg",
+      "item.wat_mod_reborn.white_kitty_tools_pickaxe": "White Kitty Pickaxe",
+      "item.wat_mod_reborn.white_kitty_tools_hoe": "White Kitty Hoe",
+      "item.minecraft.splash_potion.effect.white_kitty_potion": "Splash Potion of White Kitty",
+      "item.wat_mod_reborn.corrupted_alex_spawn_egg": "Corrupted Alex Spawn Egg",
+      "advancements.welcome.descr": "Explore the world of Wonderful Wat Cats with lots of cats but some of them can hurt you...",
+      "advancements.useless_ore_found.descr": "Mine White Kitty ore",
+      "advancements.useless_armor.title": "Useless Armor!",
+      "item.wat_mod_reborn.luna_armor_armor_chestplate": "Luna Chestplate",
+      "item.wat_mod_reborn.luna_tools_pickaxe": "Luna Pickaxe",
+      "item.wat_mod_reborn.stormy_tool_axe": "Stormy Axe",
+      "entity.wat_mod_reborn.orange": "Orange",
+      "block.wat_mod_reborn.deepslate_white_kitty_ore": "Deepslate White Kitty Ore",
+      "item.wat_mod_reborn.white_kitty_tools_axe": "White Kitty Axe",
+      "item.wat_mod_reborn.stormy_tool_shovel": "Stormy Shovel",
+      "advancements.alpha_warn.descr": "WARNING This Is A Beta Report Any Bugs Please",
+      "item_group.wat_mod_reborn.wat_reborn": "Wat Reborn",
+      "subtitles.corruptioncat": "Corruption Meows",
+      "advancements.very_useless_ore_found.title": "Very Useless Ore Found!",
+      "entity.wat_mod_reborn.luna": "Luna",
+      "advancements.the_netherite_of_cats.title": "The Netherite Of Cats",
+      "entity.wat_mod_reborn.sculk_cat": "Sculk Cat",
+      "item.wat_mod_reborn.corrupted_stormy_spawn_egg": "Corrupted Stormy Spawn Egg",
+      "item.wat_mod_reborn.flying_alex_spawn_egg": "Alex Spawn Egg",
+      "entity.wat_mod_reborn.white_kitty": "White Kitty",
+      "item.wat_mod_reborn.sir_meows_tools_axe": "Sir Meows Axe",
+      "item.wat_mod_reborn.stormy_tool_pickaxe": "Stormy Pickaxe",
+      "item.wat_mod_reborn.luna_item": "Luna",
+      "advancements.lets_bring_this_netherite.title": "Lets Bring This \"Netherite\"",
+      "item.wat_mod_reborn.stormy_spawn_egg": "Stormy Spawn Egg",
+      "entity.wat_mod_reborn.corrupted_stormy": "Corrupted Stormy",
+      "entity.wat_mod_reborn.flying_cat_god": "Flying Cat God",
+      "item.minecraft.tipped_arrow.effect.white_kitty_potion": "Arrow of White Kitty",
+      "advancements.netherite_for_the_corruptions.title": "\"Netherite\" For The Corruptions",
+      "item.minecraft.potion.effect.white_kitty_potion": "Potion of White Kitty",
+      "advancements.welcome.title": "Welcome to Wonderful Wat Cats!",
+      "item.wat_mod_reborn.white_kitty_armor_armor_helmet": "White Kitty Helmet",
+      "itemGroup.tabwat_reborn": "Wat Reborn",
+      "item.wat_mod_reborn.stormy_armor_armor_boots": "Stormy Boots",
+      "entity.wat_mod_reborn.corrupted_wuneya_meows": "Corrupted Wuneya Kitty Meows",
+      "item.wat_mod_reborn.alex_spawn_egg": "Alex Spawn Egg",
+      "item.wat_mod_reborn.white_kitty_tools_shovel": "White Kitty Shovel",
+      "block.wat_mod_reborn.white_kitty_ore": "White Kitty Ore",
+      "item.wat_mod_reborn.luna_armor_armor_leggings": "Luna Leggings",
+      "item.wat_mod_reborn.white_kitty_armor_armor_chestplate": "White Kitty Chestplate",
+      "item.wat_mod_reborn.flying_white_kitty_spawn_egg": "Flying White Kitty Spawn Egg",
+      "item.wat_mod_reborn.cat_god_spawn_egg": "Cat God Spawn Egg",
+      "advancements.useless_ore_found.title": "Useless Ore Aquired!!!",
+      "item.wat_mod_reborn.flying_sir_meows_spawn_egg": "Flying Sir Meows Spawn Egg",
+      "entity.wat_mod_reborn.flying_wuneya_kitty_meows": "Flying Wuneya Kitty Meows",
+      "entity.wat_mod_reborn.sir_kitty": "Sir Kitty",
+      "item.wat_mod_reborn.flying_wuneya_kitty_meows_spawn_egg": "Flying Wuneya Kitty Meows Spawn Egg",
+      "entity.wat_mod_reborn.flying_alex": "Alex",
+      "advancements.deep_hidden_meower.descr": "Obtain Deepslate Sir Meows Ore with Silk Touch",
+      "advancements.better_than_iron.descr": "Aquire Stomy ore",
+      "item.wat_mod_reborn.luna_tools_shovel": "Luna Shovel",
+      "entity.wat_mod_reborn.cat_god": "Cat God",
+      "item.wat_mod_reborn.corrupted_white_kitty_spawn_egg": "Corrupted White Kitty Spawn Egg",
+      "item.wat_mod_reborn.sir_meows_tools_shovel": "Sir Meows Shovel",
+      "item.wat_mod_reborn.corrupted_luna_spawn_egg": "Corrupted Luna Spawn Egg",
+      "item.wat_mod_reborn.sir_meows_spawn_egg": "Sir Meows Spawn Egg",
+      "entity.wat_mod_reborn.blank_cat": "Blank Cat",
+      "item.wat_mod_reborn.corrupted_cat_essence": "Corrupted Cat Essence",
+      "advancements.very_meowey.title": "Very Meowey",
+      "entity.wat_mod_reborn.flying_red": "Flying Red",
+      "item.wat_mod_reborn.luna_tools_sword": "Luna Sword",
+      "item.wat_mod_reborn.attack_wuneya_meows_spawn_egg": "Attack Wuneya Kitty Meows Spawn Egg",
+      "item.wat_mod_reborn.flying_red_spawn_egg": "Flying Red Spawn Egg",
+      "block.wat_mod_reborn.stormy_ore": "Stormy Ore",
+      "entity.wat_mod_reborn.red": "Red",
+      "item.wat_mod_reborn.corrupted_sir_meows_spawn_egg": "Corrupted Sir Meows Spawn Egg",
+      "item.wat_mod_reborn.cat_essence": "Cat Essence",
+      "item.wat_mod_reborn.sir_meows_tools_hoe": "Sir Meows Hoe",
+      "item.wat_mod_reborn.sir_meows_cat": "Sir Meows",
+      "item.wat_mod_reborn.blank_cat_spawn_egg": "Blank Cat Spawn Egg",
+      "entity.wat_mod_reborn.stormy": "Stormy",
+      "advancements.even_more_usless_ore_found.descr": "Aquire White Kitty ore with Silk Touch",
+      "entity.wat_mod_reborn.corrupted_blank_cat": "Corrupted Blank Cat",
+      "item.wat_mod_reborn.stormy_armor_armor_chestplate": "Stormy Chestplate",
+      "item.wat_mod_reborn.flying_essence": "Flying Essence",
+      "advancements.deep_hidden_meower.title": "Deep Hidden Meower",
+      "block.wat_mod_reborn.sir_kitty_maker": "Yarn Ball",
+      "item.wat_mod_reborn.sir_meows_tools_pickaxe": "Sir Meows Pickaxe",
+      "item.wat_mod_reborn.flying_cat_god_spawn_egg": "Flying Cat God Spawn Egg",
+      "item.wat_mod_reborn.corrupted_blank_cat_spawn_egg": "Corrupted Blank Cat Spawn Egg",
+      "item.wat_mod_reborn.corrupted_wuneya_meows_spawn_egg": "Corrupted Wuneya Kitty Meows Spawn Egg",
+      "item.wat_mod_reborn.sir_meows_tools_sword": "Sir Meows Sword",
+      "entity.wat_mod_reborn.flying_stormy": "Flying Stormy",
+      "gui.wat_mod_reborn.flying_stormy_gui.label_stomy": "Stormy",
+      "advancements.very_meowey.descr": "Obtain Sir Meows from Sir Meows Ore",
+      "entity.wat_mod_reborn.flying_sir_meows": "Flying Sir Meows",
+      "effect.wat_mod_reborn.white_kitty_effect": "White Kitty"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Recipies",
+        "children": []
+      },
+      {
+        "name": "Loot",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wat_mod_reborn",
+    "modName": "Wat Mod Reborn",
+    "version": "0.1.2b",
+    "description": "A mod that adds lots of cats!",
+    "author": "Wat Sudios, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "modPicture": "stormycat",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.watmodreborn"
+  },
+  "mcreatorVersion": 202500113416
+}

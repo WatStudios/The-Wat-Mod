@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wat_mod_reborn:block/lunaore",
+    "up": "wat_mod_reborn:block/lunaore",
+    "north": "wat_mod_reborn:block/lunaore",
+    "east": "wat_mod_reborn:block/lunaore",
+    "south": "wat_mod_reborn:block/lunaore",
+    "west": "wat_mod_reborn:block/lunaore",
+    "particle": "wat_mod_reborn:block/lunaore"
+  },
+  "render_type": "solid"
+}

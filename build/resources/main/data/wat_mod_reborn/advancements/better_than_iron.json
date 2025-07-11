@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "wat_mod_reborn:stormy_cat"
+    },
+    "title": {
+      "translate": "advancements.better_than_iron.title"
+    },
+    "description": {
+      "translate": "advancements.better_than_iron.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "better_than_iron_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wat_mod_reborn:stormy_cat"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2,
+    "recipes": [
+      "wat_mod_reborn:stormy_tool_pickaxe_recipe",
+      "wat_mod_reborn:stormy_tool_axe_recipe",
+      "wat_mod_reborn:stormy_tool_sword_recipe",
+      "wat_mod_reborn:stormy_tool_shovel_recipe",
+      "wat_mod_reborn:stormy_tool_hoe_recipe"
+    ]
+  },
+  "parent": "wat_mod_reborn:welcome"
+}

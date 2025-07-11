@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "wat_mod_reborn:sir_meows_cat"
+    },
+    "title": {
+      "translate": "advancements.very_meowey.title"
+    },
+    "description": {
+      "translate": "advancements.very_meowey.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "very_meowey_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wat_mod_reborn:sir_meows_cat"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "wat_mod_reborn:welcome"
+}

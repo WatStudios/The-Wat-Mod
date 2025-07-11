@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "wat_mod_reborn:corrupted_wuneya_meows",
+    "weight": 70,
+    "minCount": 3,
+    "maxCount": 645
+  }
+}

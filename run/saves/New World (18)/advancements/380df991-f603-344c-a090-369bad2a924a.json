@@ -1,0 +1,33 @@
+{
+  "wat_mod_reborn:alpha_warn": {
+    "criteria": {
+      "alpha_warn_0": "2024-10-19 15:24:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-19 15:24:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2024-10-19 15:24:20 -0500"
+    },
+    "done": false
+  },
+  "wat_mod_reborn:welcome": {
+    "criteria": {
+      "welcome_0": "2024-10-19 15:26:05 -0500"
+    },
+    "done": true
+  },
+  "wat_mod_reborn:useless_ore_found": {
+    "criteria": {
+      "useless_ore_found_0": "2024-10-19 15:26:36 -0500"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

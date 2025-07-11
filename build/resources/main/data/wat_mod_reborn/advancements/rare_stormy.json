@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "wat_mod_reborn:stormy_ore"
+    },
+    "title": {
+      "translate": "advancements.rare_stormy.title"
+    },
+    "description": {
+      "translate": "advancements.rare_stormy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rare_stormy_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wat_mod_reborn:stormy_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "wat_mod_reborn:better_than_iron"
+}

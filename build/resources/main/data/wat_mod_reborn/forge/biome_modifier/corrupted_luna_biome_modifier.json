@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "wat_mod_reborn:corrupted_luna",
+    "weight": 50,
+    "minCount": 2,
+    "maxCount": 10
+  }
+}

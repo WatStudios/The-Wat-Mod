@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "wat_mod_reborn:deepslate_white_kitty_ore"
+    },
+    "title": {
+      "translate": "advancements.very_useless_ore_found.title"
+    },
+    "description": {
+      "translate": "advancements.very_useless_ore_found.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "very_useless_ore_found_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wat_mod_reborn:deepslate_white_kitty_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4
+  },
+  "parent": "wat_mod_reborn:useless_ore_found"
+}

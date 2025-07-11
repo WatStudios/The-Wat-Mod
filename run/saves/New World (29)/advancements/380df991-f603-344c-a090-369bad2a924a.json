@@ -1,0 +1,34 @@
+{
+  "wat_mod_reborn:welcome": {
+    "criteria": {
+      "welcome_0": "2025-07-01 12:44:12 -0500"
+    },
+    "done": true
+  },
+  "wat_mod_reborn:alpha_warn": {
+    "criteria": {
+      "alpha_warn_0": "2025-07-01 12:44:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-01 12:44:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2025-07-01 12:44:13 -0500",
+      "minecraft:savanna_plateau": "2025-07-01 12:52:30 -0500",
+      "minecraft:river": "2025-07-01 12:52:36 -0500",
+      "minecraft:dripstone_caves": "2025-07-01 12:44:49 -0500",
+      "minecraft:forest": "2025-07-01 12:50:16 -0500",
+      "minecraft:deep_dark": "2025-07-01 12:50:21 -0500",
+      "minecraft:savanna": "2025-07-01 12:52:23 -0500",
+      "minecraft:plains": "2025-07-01 12:44:35 -0500"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

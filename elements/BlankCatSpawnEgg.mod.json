@@ -1,0 +1,22 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CatEssence"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BlankCat.spawn_egg"
+    },
+    "name": "blank_cat_spawn_egg",
+    "namespace": "mod"
+  }
+}

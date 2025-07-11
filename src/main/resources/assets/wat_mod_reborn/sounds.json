@@ -1,0 +1,23 @@
+{
+  "corruptioncat": {
+    "subtitle": "subtitles.corruptioncat",
+    "sounds": [
+      {
+        "name": "wat_mod_reborn:untitled",
+        "stream": false
+      },
+      {
+        "name": "wat_mod_reborn:meow2",
+        "stream": false
+      },
+      {
+        "name": "wat_mod_reborn:meow3",
+        "stream": false
+      },
+      {
+        "name": "wat_mod_reborn:meow4",
+        "stream": false
+      }
+    ]
+  }
+}

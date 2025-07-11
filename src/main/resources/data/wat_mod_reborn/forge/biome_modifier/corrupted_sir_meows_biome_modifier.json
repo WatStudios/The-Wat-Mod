@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "wat_mod_reborn:corrupted_sir_meows",
+    "weight": 40,
+    "minCount": 4,
+    "maxCount": 156
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "wat_mod_reborn:sir_meows_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,16 @@
+{
+  "_fv": 77,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Catter",
+    "pointOfInterest": {
+      "value": "CUSTOM:SirKittyMaker"
+    },
+    "actionSound": {
+      "value": "entity.cat.ambient"
+    },
+    "hat": "Full",
+    "professionTextureFile": "catter2.png",
+    "zombifiedProfessionTextureFile": "catter.png"
+  }
+}

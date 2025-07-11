@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "wat_mod_reborn:stormy",
+    "weight": 40,
+    "minCount": 6,
+    "maxCount": 30
+  }
+}

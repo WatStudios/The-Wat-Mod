@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wat_mod_reborn:block/sirmeowsore",
+    "up": "wat_mod_reborn:block/sirmeowsore",
+    "north": "wat_mod_reborn:block/sirmeowsore",
+    "east": "wat_mod_reborn:block/sirmeowsore",
+    "south": "wat_mod_reborn:block/sirmeowsore",
+    "west": "wat_mod_reborn:block/sirmeowsore",
+    "particle": "wat_mod_reborn:block/sirmeowsore"
+  },
+  "render_type": "solid"
+}

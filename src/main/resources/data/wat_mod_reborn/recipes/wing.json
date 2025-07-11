@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "ebf"
+  ],
+  "key": {
+    "a": {
+      "item": "wat_mod_reborn:luna_item"
+    },
+    "b": {
+      "item": "wat_mod_reborn:flying_essence"
+    },
+    "c": {
+      "item": "wat_mod_reborn:sir_meows_cat"
+    },
+    "d": {
+      "item": "wat_mod_reborn:cat_essence"
+    },
+    "e": {
+      "item": "wat_mod_reborn:stormy_cat"
+    },
+    "f": {
+      "item": "wat_mod_reborn:white_kitty_cat"
+    }
+  },
+  "result": {
+    "item": "minecraft:elytra",
+    "count": 1
+  }
+}

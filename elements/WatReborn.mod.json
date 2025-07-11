@@ -1,0 +1,11 @@
+{
+  "_fv": 77,
+  "_type": "tab",
+  "definition": {
+    "name": "Wat Reborn",
+    "icon": {
+      "value": "Blocks.BEACON"
+    },
+    "showSearch": true
+  }
+}

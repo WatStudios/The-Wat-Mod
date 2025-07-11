@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wat_mod_reborn:block/deepslatewhitekittyore",
+    "up": "wat_mod_reborn:block/deepslatewhitekittyore",
+    "north": "wat_mod_reborn:block/deepslatewhitekittyore",
+    "east": "wat_mod_reborn:block/deepslatewhitekittyore",
+    "south": "wat_mod_reborn:block/deepslatewhitekittyore",
+    "west": "wat_mod_reborn:block/deepslatewhitekittyore",
+    "particle": "wat_mod_reborn:block/deepslatewhitekittyore"
+  },
+  "render_type": "solid"
+}

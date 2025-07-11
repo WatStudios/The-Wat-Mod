@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LunaItem"
+      },
+      {
+        "value": "CUSTOM:FlyingEssence"
+      },
+      {
+        "value": "CUSTOM:SirMeowsCat"
+      },
+      {
+        "value": "CUSTOM:FlyingEssence"
+      },
+      {
+        "value": "CUSTOM:CatEssence"
+      },
+      {
+        "value": "CUSTOM:FlyingEssence"
+      },
+      {
+        "value": "CUSTOM:StormyCat"
+      },
+      {
+        "value": "CUSTOM:FlyingEssence"
+      },
+      {
+        "value": "CUSTOM:WhiteKittyCat"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.ELYTRA"
+    },
+    "name": "wing",
+    "namespace": "mod"
+  }
+}

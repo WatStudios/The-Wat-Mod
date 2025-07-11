@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wat_mod_reborn:item/sirmeowstools_shovel"
+  }
+}

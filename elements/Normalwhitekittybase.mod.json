@@ -1,0 +1,36 @@
+{
+  "_fv": 77,
+  "_type": "structure",
+  "definition": {
+    "structure": "whitekittybasenormal",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "lush_caves"
+      },
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "dripstone_caves"
+      }
+    ],
+    "terrainAdaptation": "bury",
+    "generationStep": "UNDERGROUND_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}
